@@ -93,6 +93,7 @@ img {
     font-size: 1.6rem;
     border-radius: 1rem;
     margin-top: 4rem;
+    max-width: 60rem;
     background: linear-gradient(to right, #fab2b2, #ca0404);
     color: #fff;
     cursor: pointer;
@@ -206,7 +207,7 @@ header{
     margin: 0 auto;
 }
 .promotions__content{
-    height: 23rem;
+    height: 22rem;
     margin: 0 auto;
     width: 80%;
     max-width: 98rem;
@@ -285,8 +286,7 @@ header{
     width: 23rem;
 }
 .eagle__content{
-    grid-template-columns:2fr 1fr;
-    column-gap: 5rem;
+    grid-template-columns:1fr 1fr;
     margin: 10rem auto;
 }
 .eagle__img{
@@ -319,8 +319,8 @@ header{
     column-gap: 3rem;
 }
 .eagle__modal-link{
+    justify-content: space-between;
     align-items: center;
-    grid-template-columns: 2fr  1fr;
     margin: 1rem auto;
     padding: .5rem 1rem .5rem 1rem;
     width: 90%;
