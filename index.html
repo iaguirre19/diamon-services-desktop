@@ -13,10 +13,32 @@
 
 </head>
 <body>
-    <header class="flex container__menu">
-        <img class="header__diamond-logo" src="https://static.wixstatic.com/media/7106b2_bcb718c326c14f5aaea9351ee02b0f84~mv2.png/v1/fill/w_140,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Diamond%20logo.png" alt="logo Diamond">
+    <header class="">
+        <div class="container__menu">
+            <div class="logo">
+                <img src="https://static.wixstatic.com/media/7106b2_bcb718c326c14f5aaea9351ee02b0f84~mv2.png/v1/fill/w_140,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Diamond%20logo.png" alt="Diamond logo">
+            </div>
+            <div class="menu">
+                <i class="uil uil-bars btn__menu" id="btnMenu"></i>
+                <div id="backMenu"></div>
+                <nav id="nav">
+                    <img class="logo-nav" src="https://static.wixstatic.com/media/7106b2_bcb718c326c14f5aaea9351ee02b0f84~mv2.png/v1/fill/w_140,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Diamond%20logo.png" alt="diamons professional sevices logo">
+                    <ul>
+                        <li><a href="#eagleFirst"><img src="https://static.wixstatic.com/media/7106b2_f083f43947d34fb1a76339ab77eb8700~mv2.png/v1/fill/w_221,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/eaglefirst%20logo.png" alt="Eagle first"></a></li>
+                        <li><a href="#felicity"><img src="https://static.wixstatic.com/media/7106b2_a3f5a77e23254f65b2e7c3f0bb9624dd~mv2.png/v1/fill/w_91,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/FELICITY%20LOGO.png" alt="Felicity"></a></li>
+                        <li><a href="#simple">Simple Auto Registration</a></li>
+                        <li><a href="emplyment.html">Emlpoyment</a></li>
+                    </ul>
+                    <i class="uil uil-times btn__close" id="btnClose"></i>
+                </nav>
+            </div>
+        </div>
 
-        <nav>
+        <!-- <img class="header__diamond-logo" src="https://static.wixstatic.com/media/7106b2_bcb718c326c14f5aaea9351ee02b0f84~mv2.png/v1/fill/w_140,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Diamond%20logo.png" alt="logo Diamond">
+        <i class="uil uil-bars icono__menu-bar" id="btnMenu"></i>
+        <div id="backMenu"></div>
+        <nav id="nav">
+            <img class="header__nav-img2" src="https://static.wixstatic.com/media/7106b2_bcb718c326c14f5aaea9351ee02b0f84~mv2.png/v1/fill/w_140,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Diamond%20logo.png" alt="">
             <ul class="header__nav flex">
                 <li class="hover-links">
                     <a href="#eagleFirst">
@@ -39,7 +61,7 @@
                     </a>
                 </li>
             </ul>
-        </nav>
+        </nav> -->
     </header>
     
     <main class="main">
@@ -47,8 +69,9 @@
             <div class="cover">
                 <div class="text">
                     <h1>Diamond Professional Services Inc.,</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, expedita veniam. Voluptatibus alias quis et dolores voluptatem expedita illum nesciunt, maiores nobis error</p>
-                    <a href="#contactUs" class="btn-header">Get a Quote</a>
+                    <p class="text__mobile">Our philosophy is simple: make what was once difficult easy..</p>
+                    <p>we are the best broker in California, our mission is to provide the best option so that you are happy to be protected</p>
+                    <a href="#contactUs" class="btn-header">Get a Quote Now!</a>
                 </div>
                 <div class="svg">
                     <img src="assets/img/Approved.svg" alt="insurance">
@@ -57,18 +80,20 @@
         </section>
         <!-- =============Section main middle services================= -->
         <section class="section promotions" id="promotions">
-            <div class="promotions__container grid">
+            <div class="promotions__container  grid">
+                <h2 class="news__mobile-title">Our great news</h2>
                 <div class="promotions__content box grid" >
                     <div class="promotions__first-box flex">
                         <img class="imagen-box" src="assets/img/pixlr-bg-result.png" alt="man jumping">
                         <div class="promotions__text-coupon">
                             <h3>Promotions</h3>
-                            <p>This Summer get a free cuote with the code : </p>
+                            <p>This Summer get a free cuote with our tax services</p>
                             <!-- <p>get a free cuote</p>
                             <p>with the code : <span> "MayHappy" </span></p> -->
                         </div>
                     </div>
                     <div class="promotions__second-box">
+                        
                         <img src="assets/img/vecteezy_flash-sale-banner-vector-template-with-contrast-gradient_.jpg" alt="">
                     </div>
                 </div>
@@ -76,9 +101,9 @@
         </section>
         <!-- =============Section eagle first ================= -->
         <section class="section eagle " id="eagleFirst">
-            <img class="eagle__img-title" src="https://static.wixstatic.com/media/7106b2_f083f43947d34fb1a76339ab77eb8700~mv2.png/v1/fill/w_221,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/eaglefirst%20logo.png" alt="eagle logo">
-            <span class="felicity__slogan" >Huge deductions. Great return.</span>
-            <!-- <span class="section__subtitle">Income Tax Services</span> -->
+            <div class="eagle__card-mobile">
+                <img class="eagle__img-title" src="https://static.wixstatic.com/media/7106b2_f083f43947d34fb1a76339ab77eb8700~mv2.png/v1/fill/w_221,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/eaglefirst%20logo.png" alt="eagle logo">
+                <span class="felicity__slogan" >Huge deductions. Great return.</span>
                 <div class="eagle__container container">
                     <div class="eagle__content grid">
                         <div class="eagle__img">
@@ -138,8 +163,7 @@
                         </div>
                     </div>
                 </div>
-        
-        
+            </div>
         </section>
         <!-- =============Section felicity ================= -->
         <section class="section felicity cover-felicity" id="felicity">
@@ -194,7 +218,7 @@
             </div>
         </section>
         <!-- =============Section Sample auto ================= -->
-        <section class="section simple" id="simple">
+        <section class="section simple " id="simple">
             <img class="eagle__img-title" src="https://static.wixstatic.com/media/7106b2_b954021c2f0b4c53b9a814e530c6f632~mv2.png/v1/fill/w_171,h_171,al_c,q_85,enc_auto/Simple.png" alt="eagle logo">
             <span class="felicity__slogan" >We make it fast and easy for you</span>
             <div class="simple__container container">
@@ -240,8 +264,8 @@
                 <div class="find__content grid">
                     <div class="find__offices flex">
                         <h3>Office locations</h3>
-                        <div class="find__card flex">
-                            <div class="card card1 card-find">
+                        <div class="find__card flex containerC">
+                            <div class="card card1 block card-find">
                                 <div class="card-details card-find-details">
                                     <i class="uil uil-map-marker find__icono"></i>
                                     <p class="text-title">Rialto Office</p>
@@ -251,7 +275,7 @@
                                 </div>
                                 <a href="https://goo.gl/maps/T3cR24XrACZNboPn9" target="_blank" class="card-button card-button-2">Directions</a>
                             </div>
-                            <div class="card card1 card-find">
+                            <div class="card card1 block card-find">
                                 <div class="card-details card-find-details">
                                     <i class="uil uil-map-marker find__icono"></i>
                                     <p class="text-title">Hesperia Office</p>
@@ -261,7 +285,7 @@
                                 </div>
                                 <a href="https://goo.gl/maps/1xz6wtvVXKogYcaN6" target="_blank" class="card-button card-button-2">Directions</a>
                             </div>
-                            <div class="card card1 card-find">
+                            <div class="card card1 block card-find">
                                 <div class="card-details card-find-details">
                                     <i class="uil uil-map-marker find__icono"></i>
                                     <p class="text-title">Riverside Office</p>
@@ -354,7 +378,7 @@
                         <a href="#portfolio" class="footer__link">Felicity</a>
                     </li>
                     <li>
-                        <a href="#contact" class="footer__link">Simple Auto Insurnace</a>
+                        <a href="#contact" class="footer__link">Simple Auto Registration</a>
                     </li>
                 </ul>
                 <div class="footer__socials">
@@ -370,7 +394,7 @@
         </div>
     </footer>
 
-
+    <script src="assets/js/index.js"></script>
     <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
     <script src="assets/js/main.js"></script>
 </body>

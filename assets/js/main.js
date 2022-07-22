@@ -17,3 +17,30 @@
 })(jQuery);
 var $mcj = jQuery.noConflict(true);
 
+document.getElementById("btnMenu").addEventListener('click', mostrarMenu);
+
+nav = document.getElementById("nav");
+
+backgroundMenu = document.getElementById("backMenu");
+
+document.getElementById('backMenu').addEventListener('click', ocultarMenu);
+document.getElementById("btnClose").addEventListener('click', ocultarMenuSegundo);
+
+
+function mostrarMenu() {
+  nav.style.right = "0px";
+  backgroundMenu.style.display = "block"; // esto lo que hace es que cuando se le da click al boton se pone el backmenu de fondo es ese fondo de color negro es un efecto bonito
+}
+
+function ocultarMenu() {
+  nav.style.right = "-250px";
+  backgroundMenu.style.display = "none"; // esto lo que hace es que cuando se le da click al boton se pone el backmenu de fondo es ese fondo de color negro es un efecto bonito
+}
+
+function ocultarMenuSegundo(){
+  nav.style.right = "-250px";
+  backgroundMenu.style.display = "none";
+}
+
+
+// ==============================Scroll mapa =============================
